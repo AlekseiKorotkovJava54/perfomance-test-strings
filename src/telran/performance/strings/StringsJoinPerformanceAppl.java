@@ -12,7 +12,7 @@ import telran.strings.SymbolsRemoveStandard;
 public class StringsJoinPerformanceAppl {
 
 	private static final int N_STRINGS = 1000;
-	private static final int N_RUNS = 1000;
+	private static final int N_RUNS = 2000;
 	private static final int N_CHARS = 100000;
 	private static final char SIMBOL = 'a';
 	

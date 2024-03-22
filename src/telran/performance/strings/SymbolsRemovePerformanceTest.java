@@ -11,6 +11,7 @@ public class SymbolsRemovePerformanceTest extends PerformanceTest {
 		super(displayName, nRuns);
 		this.symbolsRemove = symbolsRemove;
 		this.str = str;
+		this.symbol = symbol;
 	}
 	@Override
 	protected void runTest() {
