@@ -11,14 +11,9 @@ public class StringsJoinPerformance extends PerformanceTest {
 		super(displayName, nRuns);
 		this.stringsJoin = stringsJoin;
 		this.array = array;
-		
 	}
 	@Override
 	protected void runTest() {
 		stringsJoin.joinStrings(array, ";");
-		
 	}
-    
-	
-
 }
