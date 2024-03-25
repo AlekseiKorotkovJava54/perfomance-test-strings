@@ -4,6 +4,7 @@ public class SymbolsRemoveCharArray implements SymbolsRemove {
 
 	@Override
 	public String removeSymbols(String str, char symbol) {
+
 		char[] charArray = str.toCharArray();
 		int count =0;
 		for(char i : charArray) {
@@ -15,6 +16,8 @@ public class SymbolsRemoveCharArray implements SymbolsRemove {
 			if(i != symbol) newArray[index++] = i;
 			// index +=1;
 		}
-		return new String(newArray);
+		String a = new String(newArray);
+
+		return a;
 	}
 }

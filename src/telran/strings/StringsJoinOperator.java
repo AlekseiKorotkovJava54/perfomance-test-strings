@@ -10,5 +10,4 @@ public class StringsJoinOperator implements StringsJoin {
 		}
 		return str;
 	}
-
 }
